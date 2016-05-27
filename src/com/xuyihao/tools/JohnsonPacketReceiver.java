@@ -18,10 +18,9 @@ public class JohnsonPacketReceiver implements PacketReceiver{
 
 	@Override
 	public void receivePacket(Packet p) {
-		//if it is a TCP package
 		if(p instanceof jpcap.packet.TCPPacket){
 			TCPPacket packet = (TCPPacket)p;
-			String s = "UDP Packet : dst_ip "+packet.dst_ip+":"+packet.dst_port+" | src_ip "+packet.src_ip+":"+packet.src_port+" | len: "+packet.len+"";
+			String s = "TCP Packet : dst_ip "+packet.dst_ip+":"+packet.dst_port+" | src_ip "+packet.src_ip+":"+packet.src_port+" | len: "+packet.len+"";
 			System.out.println(s);
 		}else if(p instanceof jpcap.packet.UDPPacket){
 			UDPPacket packet = (UDPPacket)p;
