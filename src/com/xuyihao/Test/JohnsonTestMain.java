@@ -31,7 +31,7 @@ public class JohnsonTestMain{
 			System.out.println("开始抓取第"+selected+"个卡口上的数据");
 			
 		}catch(Exception e){
-			e.printStackTrace();
+			//e.printStackTrace();
 			System.out.println("启动失败!");
 		}
 	}
