@@ -1,0 +1,1 @@
+java -classpath .;%~dp0JohnsonCaptureExecutable;%~dp0JohnsonCaptureExecutable\lib\jpcap.jar com.xuyihao.Test.JohnsonTestMain

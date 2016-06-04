@@ -1,5 +1,6 @@
 *******
 created by Xu Yihao on 2016/6/4
+compile jdk version 1.8
 *******
 
 usage:

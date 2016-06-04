@@ -8,5 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="jpcap" level="project" />
+    <orderEntry type="library" name="jpcap" level="project" />
   </component>
 </module>
