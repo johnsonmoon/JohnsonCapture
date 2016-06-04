@@ -42,6 +42,7 @@ public class JohnsonTestMain{
 						startCapThread(jpcap, timeIn, deviceNum, devices[deviceNum].name, devices[deviceNum].description);
 					}catch(Exception e){
 						//do nothing
+						e.printStackTrace();
 					}
 					System.out.println("开启第"+ins[i]+"个设备监听");
 				}
@@ -56,7 +57,7 @@ public class JohnsonTestMain{
 			}
 			System.out.println("监听结束! 程序结束!");
 		}catch(Exception e){
-			//e.printStackTrace();
+			e.printStackTrace();
 			System.out.println("启动失败!");
 		}
 	}
